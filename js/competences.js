@@ -133,32 +133,9 @@ const preuves = {
         }
     },
     
-    'jeux-bulle': {
-        4: {
-            description: "Compétence : Travailler en mode projet",
-            images: [
-                { src: 'img/preuves/jeux-bulle-gameplay.png', caption: 'Interface du jeu' }
-            ]
-        }
-    },
+
     
-    'bacchus': {
-        4: {
-            description: "Compétence : Travailler en mode projet",
-            images: [
-                { src: 'img/preuves/bacchus-home.png', caption: 'Application Bacchus Services' }
-            ]
-        }
-    },
-    
-    'back-office': {
-        4: {
-            description: "Compétence : Travailler en mode projet",
-            images: [
-                { src: 'img/preuves/back-office-dashboard.png', caption: 'Back-office administratif' }
-            ]
-        }
-    }
+
 };
 
 // Noms des compétences pour affichage
