@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Salah Arroum - Développeur Full Stack</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Salah<span>.Dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact" class="btn-nav">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <span class="greeting">Bonjour, je suis</span>
+            <h1>Salah ARROUM</h1>
+            <h2>Alternant BTS SIO & <span class="highlight">Développeur Full Stack</span></h2>
+            <p>Passionné par le développement d'applications web (PWA), l'automatisation de processus et l'intégration d'APIs.</p>
+            <div class="cta-group">
+                <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                <a href="#contact" class="btn btn-outline">Me contacter</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-block">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <pre><code>
+const developer = {
+  name: "Salah",
+  role: "Full Stack",
+  skills: ["JS", "PHP", "Python"],
+  status: "Ready to code"
+};
+                </code></pre>
+            </div>
+            <div class="abstract-shape"></div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">À Propos</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Actuellement étudiant en <strong>BTS SIO option SLAM</strong> à l'école IRIS, je suis passionné par la création de solutions numériques concrètes.
+                    </p>
+                    <p>
+                        Mon objectif est de booster la productivité des entreprises en créant des <strong>PWA (Progressive Web Apps)</strong> et en automatisant les tâches récurrentes via des scripts Python ou Google Apps Script.
+                    </p>
+                    <a href="CV_ARROUM_Salah_D.pdf" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Télécharger mon CV
+                    </a>
+                </div>
+                <div class="about-cards">
+                    <div class="card-mini">
+                        <i class="fas fa-code"></i>
+                        <h4>Développement</h4>
+                        <p>Full Stack, PWA, APIs</p>
+                    </div>
+                    <div class="card-mini">
+                        <i class="fas fa-robot"></i>
+                        <h4>Automatisation</h4>
+                        <p>Python, Google Script</p>
+                    </div>
+                    <div class="card-mini">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Système</h4>
+                        <p>Support IT & Admin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="parcours" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Mon Parcours</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="date">Sept 2025 - Présent</span>
+                        <h3>FM Logistic</h3>
+                        <h4>Technicien Support VIP / Développeur Full Stack</h4>
+                        <ul>
+                            <li>Développement d'une PWA de gestion de flotte automobile (Google Apps Script, JS).</li>
+                            <li>Intégration d'APIs Google (Sheets, Calendar, Drive).</li>
+                            <li>Automatisation système (CyberArk/IAM).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="date">Oct 2024 - Sept 2025</span>
+                        <h3>HIKVISION</h3>
+                        <h4>Alternant Technicien Support</h4>
+                        <ul>
+                            <li>Scripting Python pour automatisation de tâches.</li>
+                            <li>Support technique et gestion incidents (IVMS, SADP).</li>
+                            <li>Participation à l'amélioration des processus.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="date">2024 - 2026</span>
+                        <h3>IRIS Paris</h3>
+                        <h4>BTS SIO - Option SLAM</h4>
+                        <p>Solutions Logicielles et Applications Métiers.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="date">Avril - Juil 2024</span>
+                        <h3>Lycée Eugène Delacroix</h3>
+                        <h4>Stage Technicien Support</h4>
+                        <p>Gestion parc informatique (+100 postes), maintenance et assistance utilisateurs.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projets Réalisés</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-img-placeholder" style="background: linear-gradient(45deg, #1e3c72, #2a5298);">
+                        <i class="fas fa-car-side"></i> </div>
+                    <div class="project-info">
+                        <h3>FM Move (Gestion Flotte)</h3>
+                        <p>Application Web (PWA) autonome pour la gestion de flotte automobile et réservation.</p>
+                        <div class="tags">
+                            <span>Google Apps Script</span>
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-disabled"><i class="fas fa-lock"></i> Projet Interne</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-placeholder" style="background: linear-gradient(45deg, #6366f1, #8b5cf6);">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Neige & Soleil</h3>
+                        <p>Site de réservation de séjours à la montagne avec back-office d'administration.</p>
+                        <div class="tags">
+                            <span>Symfony</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>Twig</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0f4c5c, #fb8500);">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>HOMSY - Gestion Locative IA</h3>
+                        <p>Application mobile complète pour la gestion de ménages et locations avec validation par Intelligence Artificielle.</p>
+                        
+                        <div class="tags">
+                            <span>Flutter (Mobile)</span>
+                            <span>Firebase (Backend)</span>
+                            <span>Google Gemini (AI)</span>
+                            <span>Stripe (Paiement)</span>
+                            <span>GCP (Cloud Run)</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="#" class="link-disabled"><i class="fas fa-lock"></i> Projet Privé</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION TABLEAU DE COMPÉTENCES (à ajouter dans index.html après la section Veille) -->
+
+<section id="competences-bts" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Tableau de Compétences BTS SIO SLAM</h2>
+        <p style="text-align: center; margin-bottom: 2rem; color: var(--text-light);">
+            Épreuve E5 - Situations professionnelles vécues en formation et en alternance
+        </p>
+
+        <!-- Tableau responsive -->
+        <div class="competences-table-wrapper">
+            <table class="competences-table">
+                <thead>
+                    <tr>
+                        <th>Projet / Réalisation</th>
+                        <th>Gérer le patrimoine informatique</th>
+                        <th>Répondre aux incidents et aux demandes d'assistance</th>
+                        <th>Développer la présence en ligne</th>
+                        <th>Travailler en mode projet</th>
+                        <th>Mettre à disposition un service informatique</th>
+                        <th>Organiser son développement professionnel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Section : Formation -->
+                    <tr class="section-header">
+                        <td colspan="7"><strong>Réalisations en formation (2024-2026)</strong></td>
+                    </tr>
+                    
+                    <tr class="project-row" data-project="linkedin">
+                        <td class="project-name">
+                            <span class="project-icon">💼</span>
+                            <strong>LinkedIn</strong>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="has-proof" onclick="openProofModal('linkedin', 6)">
+                            ✓
+                        </td>
+                    </tr>
+
+                    <tr class="project-row" data-project="site-orange">
+                        <td class="project-name">
+                            <span class="project-icon">🌐</span>
+                            <strong>Site Orange</strong>
+                        </td>
+                        <td></td>
+                        <td class="has-proof" onclick="openProofModal('site-orange', 2)">
+                            ✓
+                        </td>
+                        <td></td>
+                        <td class="has-proof" onclick="openProofModal('site-orange', 4)">
+                            ✓
+                        </td>
+                        <td class="has-proof" onclick="openProofModal('site-orange', 5)">
+                            ✓
+                        </td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="project-row" data-project="glpi">
+                        <td class="project-name">
+                            <span class="project-icon">🛠️</span>
+                            <strong>Service Now</strong>
+                        </td>
+                        <td class="has-proof" onclick="openProofModal('glpi', 1)">
+                            ✓
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="project-row" data-project="wordpress">
+                        <td class="project-name">
+                            <span class="project-icon">📝</span>
+                            <strong>WordPress</strong>
+                        </td>
+                        <td></td>
+                        <td class="has-proof" onclick="openProofModal('wordpress', 2)">
+                            ✓
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="project-row" data-project="projet-c">
+                        <td class="project-name">
+                            <span class="project-icon">💻</span>
+                            <strong>Projet en C</strong>
+                        </td>
+                        <td></td>
+                        <td class="has-proof" onclick="openProofModal('projet-c', 2)">
+                            ✓
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="project-row" data-project="calculatrice-java">
+                        <td class="project-name">
+                            <span class="project-icon">🧮</span>
+                            <strong>Morpion en Java</strong>
+                        </td>
+                        <td class="has-proof" onclick="openProofModal('calculatrice-java', 1)">
+                            ✓
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <!-- Section : Alternance -->
+                    <tr class="section-header">
+                        <td colspan="7"><strong>Réalisations en alternance (2024-2026)</strong></td>
+                    </tr>
+
+                    <tr class="project-row featured-project" data-project="fm-move">
+                        <td class="project-name">
+                            <span class="project-icon">🚗</span>
+                            <strong>FM Move (Gestion Flotte)</strong>
+                            <span class="badge-featured">Projet Phare</span>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="has-proof" onclick="openProofModal('fm-move', 4)">
+                            ✓
+                        </td>
+                        <td class="has-proof" onclick="openProofModal('fm-move', 5)">
+                            ✓
+                        </td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="project-row" data-project="page-liens">
+                        <td class="project-name">
+                            <span class="project-icon">🔗</span>
+                            <strong>Page des Liens</strong>
+                        </td>
+                        <td></td>
+                        <td class="has-proof" onclick="openProofModal('page-liens', 2)">
+                            ✓
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <!-- Section : Cours -->
+                    <tr class="section-header">
+                        <td colspan="7"><strong>Réalisations en cours</strong></td>
+                    </tr>
+
+                    <tr class="project-row" data-project="neige-soleil">
+                        <td class="project-name">
+                            <span class="project-icon">⛰️</span>
+                            <strong>Neige & Soleil</strong>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="has-proof" onclick="openProofModal('neige-soleil', 4)">
+                            ✓
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+
+
+                    <tr class="project-row" data-project="homsy">
+                        <td class="project-name">
+                            <span class="project-icon">🏠</span>
+                            <strong>HOMSY (Gestion Locative IA)</strong>
+                            <span class="badge-new">Nouveau</span>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="has-proof" onclick="openProofModal('homsy', 4)">
+                            ✓
+                        </td>
+                        <td class="has-proof" onclick="openProofModal('homsy', 5)">
+                            ✓
+                        </td>
+                        <td></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Bouton Tableau de Synthèse -->
+       <a href="img/tableau.pdf" target="_blank" download class="btn btn-primary">
+            <i class="fas fa-file-excel"></i> Télécharger le Tableau de Synthèse
+        </a>
+    </div>
+</section>
+
+<!-- MODAL POUR AFFICHER LES PREUVES (screenshots) -->
+<div id="proofModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeProofModal()">&times;</span>
+        <h3 id="modal-title">Preuve - Projet X</h3>
+        <p id="modal-description">Compétence : ...</p>
+        
+        <!-- Galerie d'images -->
+        <div class="proof-gallery" id="proof-images">
+            <!-- Les images seront insérées ici dynamiquement -->
+        </div>
+        
+        <button class="btn btn-primary" onclick="closeProofModal()">Fermer</button>
+    </div>
+</div>
+
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Compétences Techniques</h2>
+            
+            <div class="skills-wrapper">
+                <h3><i class="fas fa-code"></i> Langages & Front</h3>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fab fa-js"></i> <span>JavaScript</span></div>
+                    <div class="skill-item"><i class="fab fa-php"></i> <span>PHP</span></div>
+                    <div class="skill-item"><i class="fab fa-html5"></i> <span>HTML5</span></div>
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i> <span>CSS3</span></div>
+                    <div class="skill-item"><i class="fab fa-react"></i> <span>React</span></div>
+                </div>
+
+                <h3><i class="fas fa-server"></i> Back & Outils</h3>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fab fa-python"></i> <span>Python</span></div>
+                    <div class="skill-item"><i class="fab fa-symfony"></i> <span>Symfony</span></div>
+                    <div class="skill-item"><i class="fas fa-database"></i> <span>SQL / MySQL</span></div>
+                    <div class="skill-item"><i class="fab fa-git-alt"></i> <span>Git</span></div>
+                    <div class="skill-item"><i class="fab fa-google"></i> <span>Apps Script</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="veille" class="section">
+        <div class="container">
+            <h2 class="section-title">Veille Technologique</h2>
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h3>Sujet : La puce Nvidia Blackwell</h3>
+                <p>Suivi de l'architecture GPU B200, l'impact sur l'IA générative et les enjeux hardware.</p>
+            </div>
+
+            <div class="rss-feed" id="rss-feed-container">
+                <div class="rss-item">
+                    <p><i class="fas fa-sync fa-spin"></i> Chargement des articles en cours...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <h2>Me Contacter</h2>
+            <p>Ouvert aux opportunités et aux projets innovants.</p>
+            
+            <div class="contact-links">
+                <a href="mailto:salaharroum75@gmail.com" class="contact-box">
+                    <i class="fas fa-envelope"></i>
+                    <span>salaharroum75@gmail.com</span>
+                </a>
+                <a href="tel:0680462638" class="contact-box">
+                    <i class="fas fa-phone"></i>
+                    <span>06 80 46 26 38</span>
+                </a>
+                <a href="https://www.linkedin.com/in/salah-arroum700/" target="_blank" class="contact-box">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/Salahh700" target="_blank" class="contact-box">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Salah Arroum - Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/competences.js"></script>
+</body>
+</html>
