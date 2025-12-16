@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Salah Arroum - Développeur Full Stack</title>
+
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -49,10 +52,10 @@
                 </div>
                 <pre><code>
 const developer = {
-  name: "Salah",
-  role: "Full Stack",
-  skills: ["JS", "PHP", "Python"],
-  status: "Ready to code"
+name: "Salah",
+role: "Full Stack",
+skills: ["JS", "PHP", "Python"],
+status: "Ready to code"
 };
                 </code></pre>
             </div>
@@ -179,7 +182,6 @@ const developer = {
                         <h3>Neige & Soleil</h3>
                         <p>Site de réservation de séjours à la montagne avec back-office d'administration.</p>
                         <div class="tags">
-                            <span>Symfony</span>
                             <span>PHP</span>
                             <span>MySQL</span>
                             <span>Twig</span>
@@ -240,190 +242,14 @@ const developer = {
                         <th>Organiser son développement professionnel</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <!-- Section : Formation -->
-                    <tr class="section-header">
-                        <td colspan="7"><strong>Réalisations en formation (2024-2026)</strong></td>
-                    </tr>
-                    
-                    <tr class="project-row" data-project="linkedin">
-                        <td class="project-name">
-                            <span class="project-icon">💼</span>
-                            <strong>LinkedIn</strong>
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="has-proof" onclick="openProofModal('linkedin', 6)">
-                            ✓
-                        </td>
-                    </tr>
-
-                    <tr class="project-row" data-project="site-orange">
-                        <td class="project-name">
-                            <span class="project-icon">🌐</span>
-                            <strong>Site Orange</strong>
-                        </td>
-                        <td></td>
-                        <td class="has-proof" onclick="openProofModal('site-orange', 2)">
-                            ✓
-                        </td>
-                        <td></td>
-                        <td class="has-proof" onclick="openProofModal('site-orange', 4)">
-                            ✓
-                        </td>
-                        <td class="has-proof" onclick="openProofModal('site-orange', 5)">
-                            ✓
-                        </td>
-                        <td></td>
-                    </tr>
-
-                    <tr class="project-row" data-project="ServiceNow">
-                        <td class="project-name">
-                            <span class="project-icon">🛠️</span>
-                            <strong>Service Now</strong>
-                        </td>
-                        <td class="has-proof" onclick="openProofModal('ServiceNow', 1)">
-                            ✓
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                    <tr class="project-row" data-project="wordpress">
-                        <td class="project-name">
-                            <span class="project-icon">📝</span>
-                            <strong>WordPress</strong>
-                        </td>
-                        <td></td>
-                        <td class="has-proof" onclick="openProofModal('wordpress', 2)">
-                            ✓
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                    <tr class="project-row" data-project="projet-c">
-                        <td class="project-name">
-                            <span class="project-icon">💻</span>
-                            <strong>Projet en C</strong>
-                        </td>
-                        <td></td>
-                        <td class="has-proof" onclick="openProofModal('projet-c', 2)">
-                            ✓
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                    <tr class="project-row" data-project="calculatrice-java">
-                        <td class="project-name">
-                            <span class="project-icon">🧮</span>
-                            <strong>Morpion en Java</strong>
-                        </td>
-                        <td class="has-proof" onclick="openProofModal('calculatrice-java', 1)">
-                            ✓
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                    <!-- Section : Alternance -->
-                    <tr class="section-header">
-                        <td colspan="7"><strong>Réalisations en alternance (2024-2026)</strong></td>
-                    </tr>
-
-                    <tr class="project-row featured-project" data-project="fm-move">
-                        <td class="project-name">
-                            <span class="project-icon">🚗</span>
-                            <strong>FM Move (Gestion Flotte)</strong>
-                            <span class="badge-featured">Projet Phare</span>
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="has-proof" onclick="openProofModal('fm-move', 4)">
-                            ✓
-                        </td>
-                        <td class="has-proof" onclick="openProofModal('fm-move', 5)">
-                            ✓
-                        </td>
-                        <td></td>
-                    </tr>
-
-                    <tr class="project-row" data-project="page-liens">
-                        <td class="project-name">
-                            <span class="project-icon">🔗</span>
-                            <strong>Page des Liens</strong>
-                        </td>
-                        <td></td>
-                        <td class="has-proof" onclick="openProofModal('page-liens', 2)">
-                            ✓
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                    <!-- Section : Cours -->
-                    <tr class="section-header">
-                        <td colspan="7"><strong>Réalisations en cours</strong></td>
-                    </tr>
-
-                    <tr class="project-row" data-project="neige-soleil">
-                        <td class="project-name">
-                            <span class="project-icon">⛰️</span>
-                            <strong>Neige & Soleil</strong>
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="has-proof" onclick="openProofModal('neige-soleil', 4)">
-                            ✓
-                        </td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-
-
-                    <tr class="project-row" data-project="homsy">
-                        <td class="project-name">
-                            <span class="project-icon">🏠</span>
-                            <strong>HOMSY (Gestion Locative IA)</strong>
-                            <span class="badge-new">Nouveau</span>
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="has-proof" onclick="openProofModal('homsy', 4)">
-                            ✓
-                        </td>
-                        <td class="has-proof" onclick="openProofModal('homsy', 5)">
-                            ✓
-                        </td>
-                        <td></td>
-                    </tr>
-
+                <tbody id="tableau-body">
+                    <!-- Le contenu se génère automatiquement ici -->
                 </tbody>
             </table>
         </div>
 
         <!-- Bouton Tableau de Synthèse -->
-       <a href="img/tableau.pdf" target="_blank" download class="btn btn-primary">
+       <a href="img/tableauCompetences.pdf" target="_blank" download class="btn btn-primary">
             <i class="fas fa-file-excel"></i> Télécharger le Tableau de Synthèse
         </a>
     </div>
