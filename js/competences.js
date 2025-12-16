@@ -79,32 +79,16 @@ const preuves = {
         }
     },
     
-    'glpi': {
+    'ServiceNow': {
         1: {
             description: "Compétence : Gérer le patrimoine informatique",
             images: [
-                { src: 'img/preuves/glpi-inventaire.png', caption: 'Inventaire du parc informatique' }
+                { src: 'img/preuves/ServiceNow.png', caption: 'Inventaire du parc informatique' }
             ]
         }
     },
     
-    'wordpress': {
-        2: {
-            description: "Compétence : Répondre aux incidents et aux demandes d'assistance",
-            images: [
-                { src: 'img/preuves/wordpress-site.png', caption: 'Site WordPress créé' }
-            ]
-        }
-    },
-    
-    'shopify': {
-        2: {
-            description: "Compétence : Répondre aux incidents et aux demandes d'assistance",
-            images: [
-                { src: 'img/preuves/shopify-store.png', caption: 'Boutique Shopify configurée' }
-            ]
-        }
-    },
+
     
     'projet-c': {
         2: {
@@ -123,18 +107,7 @@ const preuves = {
             ]
         }
     },
-    
-    'page-liens': {
-        2: {
-            description: "Compétence : Répondre aux incidents et aux demandes d'assistance",
-            images: [
-                { src: 'img/preuves/page-liens-screenshot.png', caption: 'Page des liens créée' }
-            ]
-        }
-    },
-    
-
-    
+       
 
 };
 
