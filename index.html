@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Salah Arroum - Développeur Full Stack</title>
 
-        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
-    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -23,6 +22,7 @@
             <li><a href="#about">À Propos</a></li>
             <li><a href="#parcours">Parcours</a></li>
             <li><a href="#projects">Projets</a></li>
+            <li><a href="#competences-bts">Compétences BTS</a></li>
             <li><a href="#contact" class="btn-nav">Contact</a></li>
         </ul>
         <div class="burger">
@@ -52,10 +52,10 @@
                 </div>
                 <pre><code>
 const developer = {
-name: "Salah",
-role: "Full Stack",
-skills: ["JS", "PHP", "Python"],
-status: "Ready to code"
+  name: "Salah",
+  role: "Full Stack",
+  skills: ["JS", "PHP", "Python"],
+  status: "Ready to code"
 };
                 </code></pre>
             </div>
@@ -69,10 +69,13 @@ status: "Ready to code"
             <div class="about-grid">
                 <div class="about-text">
                     <p>
-                        Actuellement étudiant en <strong>BTS SIO option SLAM</strong> à l'école IRIS, je suis passionné par la création de solutions numériques concrètes.
+                        Actuellement étudiant en <strong>BTS SIO (Services Informatiques aux Organisations)</strong> option <strong>SLAM (Solutions Logicielles et Applications Métiers)</strong> à l'école IRIS Paris, je me spécialise dans le développement d'applications et la programmation.
                     </p>
                     <p>
-                        Mon objectif est de booster la productivité des entreprises en créant des <strong>PWA (Progressive Web Apps)</strong> et en automatisant les tâches récurrentes via des scripts Python ou Google Apps Script.
+                        Le <strong>BTS SIO SLAM</strong> me forme à concevoir, développer et maintenir des applications informatiques répondant aux besoins des entreprises. Cette formation allie compétences techniques (langages de programmation, bases de données, frameworks) et méthodologies professionnelles (gestion de projet, travail en équipe, documentation).
+                    </p>
+                    <p>
+                        Mon objectif est de booster la productivité des organisations en créant des <strong>PWA (Progressive Web Apps)</strong>, en automatisant les processus métiers via des scripts (Python, Google Apps Script) et en intégrant des solutions cloud modernes.
                     </p>
                     <a href="CV_ARROUM_Salah_D.pdf" target="_blank" class="btn btn-primary">
                         <i class="fas fa-download"></i> Télécharger mon CV
@@ -147,6 +150,15 @@ status: "Ready to code"
                     </div>
                 </div>
 
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="date">2021-2024</span>
+                        <h3>Université Paris-Saclay</h3>
+                        <h4>Licence de Chimie - Science de la vie ⚗️</h4>
+                        <p>Formation sur 3 ans sur ma deuxième passion : l'étude de la Vie et la Matière ! 🧬</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -158,7 +170,8 @@ status: "Ready to code"
                 
                 <div class="project-card">
                     <div class="project-img-placeholder" style="background: linear-gradient(45deg, #1e3c72, #2a5298);">
-                        <i class="fas fa-car-side"></i> </div>
+                        <i class="fas fa-car-side"></i>
+                    </div>
                     <div class="project-info">
                         <h3>FM Move (Gestion Flotte)</h3>
                         <p>Application Web (PWA) autonome pour la gestion de flotte automobile et réservation.</p>
@@ -213,65 +226,71 @@ status: "Ready to code"
                         </div>
                     </div>
                 </div>
-                </div>
 
             </div>
         </div>
     </section>
 
-    <!-- SECTION TABLEAU DE COMPÉTENCES (à ajouter dans index.html après la section Veille) -->
+    <section id="competences-bts" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Tableau de Compétences BTS SIO SLAM</h2>
+            
+            <div style="max-width: 900px; margin: 0 auto 3rem; text-align: center;">
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: var(--shadow); border-left: 4px solid var(--primary);">
+                    <h3 style="color: var(--primary); margin-bottom: 1rem;">
+                        <i class="fas fa-graduation-cap"></i> Épreuve E5 - Situations Professionnelles
+                    </h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem; text-align: left;">
+                        L'<strong>épreuve E5</strong> du BTS SIO évalue la capacité à mobiliser les compétences professionnelles acquises en formation et en entreprise. Elle repose sur la présentation de <strong>réalisations concrètes</strong> démontrant la maîtrise des 6 compétences du référentiel SLAM.
+                    </p>
+                    <p style="color: var(--text-light); text-align: left;">
+                        Ce tableau présente mes <strong>projets réels</strong> développés en formation, en alternance et en autonomie, avec les preuves associées (captures d'écran, code source, documentation). Chaque checkmark (✓) orange est cliquable pour accéder aux preuves visuelles.
+                    </p>
+                </div>
+            </div>
 
-<section id="competences-bts" class="section bg-light">
-    <div class="container">
-        <h2 class="section-title">Tableau de Compétences BTS SIO SLAM</h2>
-        <p style="text-align: center; margin-bottom: 2rem; color: var(--text-light);">
-            Épreuve E5 - Situations professionnelles vécues en formation et en alternance
-        </p>
+            <div class="competences-table-wrapper">
+                <table class="competences-table">
+                    <thead>
+                        <tr>
+                            <th>Projet / Réalisation</th>
+                            <th>Gérer le patrimoine informatique</th>
+                            <th>Répondre aux incidents et aux demandes d'assistance</th>
+                            <th>Développer la présence en ligne</th>
+                            <th>Travailler en mode projet</th>
+                            <th>Mettre à disposition un service informatique</th>
+                            <th>Organiser son développement professionnel</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableau-body">
+                        <!-- Le contenu se génère automatiquement ici -->
+                    </tbody>
+                </table>
+            </div>
 
-        <!-- Tableau responsive -->
-        <div class="competences-table-wrapper">
-            <table class="competences-table">
-                <thead>
-                    <tr>
-                        <th>Projet / Réalisation</th>
-                        <th>Gérer le patrimoine informatique</th>
-                        <th>Répondre aux incidents et aux demandes d'assistance</th>
-                        <th>Développer la présence en ligne</th>
-                        <th>Travailler en mode projet</th>
-                        <th>Mettre à disposition un service informatique</th>
-                        <th>Organiser son développement professionnel</th>
-                    </tr>
-                </thead>
-                <tbody id="tableau-body">
-                    <!-- Le contenu se génère automatiquement ici -->
-                </tbody>
-            </table>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="img/tableauCompetences.pdf" target="_blank" download class="btn btn-primary">
+                    <i class="fas fa-file-excel"></i> Télécharger le Tableau de Synthèse
+                </a>
+            </div>
         </div>
+    </section>
 
-        <!-- Bouton Tableau de Synthèse -->
-       <a href="img/tableauCompetences.pdf" target="_blank" download class="btn btn-primary">
-            <i class="fas fa-file-excel"></i> Télécharger le Tableau de Synthèse
-        </a>
-    </div>
-</section>
-
-<!-- MODAL POUR AFFICHER LES PREUVES (screenshots) -->
-<div id="proofModal" class="modal">
-    <div class="modal-content">
-        <span class="close-modal" onclick="closeProofModal()">&times;</span>
-        <h3 id="modal-title">Preuve - Projet X</h3>
-        <p id="modal-description">Compétence : ...</p>
-        
-        <!-- Galerie d'images -->
-        <div class="proof-gallery" id="proof-images">
-            <!-- Les images seront insérées ici dynamiquement -->
+    <div id="proofModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeProofModal()">&times;</span>
+            <h3 id="modal-title">Preuve - Projet X</h3>
+            <p id="modal-description">Compétence : ...</p>
+            
+            <div class="proof-gallery" id="proof-images">
+                <!-- Les images seront insérées ici dynamiquement -->
+            </div>
+            
+            <button class="btn btn-primary" onclick="closeProofModal()">Fermer</button>
         </div>
-        
-        <button class="btn btn-primary" onclick="closeProofModal()">Fermer</button>
     </div>
-</div>
 
-    <section id="skills" class="section bg-light">
+    <section id="skills" class="section">
         <div class="container">
             <h2 class="section-title">Compétences Techniques</h2>
             
@@ -280,6 +299,7 @@ status: "Ready to code"
                 <div class="skills-grid">
                     <div class="skill-item"><i class="fab fa-js"></i> <span>JavaScript</span></div>
                     <div class="skill-item"><i class="fab fa-php"></i> <span>PHP</span></div>
+                    <div class="skill-item"><i class="fab fa-java"></i> <span>Java</span></div>
                     <div class="skill-item"><i class="fab fa-html5"></i> <span>HTML5</span></div>
                     <div class="skill-item"><i class="fab fa-css3-alt"></i> <span>CSS3</span></div>
                     <div class="skill-item"><i class="fab fa-react"></i> <span>React</span></div>
@@ -288,22 +308,41 @@ status: "Ready to code"
                 <h3><i class="fas fa-server"></i> Back & Outils</h3>
                 <div class="skills-grid">
                     <div class="skill-item"><i class="fab fa-python"></i> <span>Python</span></div>
-                    <div class="skill-item"><i class="fab fa-symfony"></i> <span>Symfony</span></div>
+                    <div class="skill-item"><i class="fas fa-fire"></i> <span>Firebase</span></div>
                     <div class="skill-item"><i class="fas fa-database"></i> <span>SQL / MySQL</span></div>
                     <div class="skill-item"><i class="fab fa-git-alt"></i> <span>Git</span></div>
                     <div class="skill-item"><i class="fab fa-google"></i> <span>Apps Script</span></div>
+                    <div class="skill-item"><i class="fas fa-code"></i> <span>C / C++</span></div>
                 </div>
             </div>
         </div>
     </section>
 
-   <section id="veille" class="section">
+    <section id="veille" class="section bg-light">
         <div class="container">
             <h2 class="section-title">Veille Technologique</h2>
-            <div style="text-align: center; margin-bottom: 2rem;">
-                <h3>Sujet : La puce Nvidia Blackwell</h3>
-                <p>Suivi de l'architecture GPU B200, l'impact sur l'IA générative et les enjeux hardware.</p>
+            
+            <div style="max-width: 800px; margin: 0 auto 3rem; text-align: center;">
+                <p style="font-size: 1.1rem; margin-bottom: 1.5rem; color: var(--text-main);">
+                    La <strong>veille technologique</strong> consiste à surveiller les innovations et évolutions dans un domaine précis pour rester à jour et anticiper les tendances du marché. Cette pratique est essentielle en informatique où les technologies évoluent constamment.
+                </p>
+                
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: var(--shadow); border-left: 4px solid var(--accent);">
+                    <h3 style="color: var(--primary); margin-bottom: 1rem;">
+                        <i class="fas fa-microchip"></i> Sujet : Architecture NVIDIA Blackwell
+                    </h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem;">
+                        J'ai choisi de suivre l'évolution de la puce <strong>NVIDIA Blackwell</strong> (architecture B200) car elle représente une révolution dans le domaine de l'IA générative et du calcul haute performance. 
+                    </p>
+                    <p style="color: var(--text-light);">
+                        <strong>NVIDIA</strong> est une entreprise que je rêve d'intégrer un jour. Leur impact sur l'intelligence artificielle, le cloud computing et les technologies de demain m'inspire énormément dans mon parcours professionnel.
+                    </p>
+                </div>
             </div>
+
+            <h3 style="text-align: center; margin-bottom: 2rem; color: var(--dark);">
+                <i class="fas fa-newspaper"></i> Dernières actualités
+            </h3>
 
             <div class="rss-feed" id="rss-feed-container">
                 <div class="rss-item">
